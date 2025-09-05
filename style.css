@@ -1,0 +1,175 @@
+body {
+
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+
+  color: #fff;
+
+}
+
+header {
+
+  text-align: center;
+
+  padding: 50px 20px;
+
+}
+
+header h1 {
+
+  font-size: 3em;
+
+  margin: 0;
+
+}
+
+header p {
+
+  font-size: 1.2em;
+
+  margin-top: 10px;
+
+}
+
+.container {
+
+  width: 80%;
+
+  margin: 30px auto;
+
+}
+
+.card {
+
+  background: #ffffff15;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  margin-bottom: 20px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+
+  transition: transform 0.3s;
+
+}
+
+.card:hover {
+
+  transform: scale(1.02);
+
+}
+
+h2 {
+
+  margin-top: 0;
+
+  color: #ffe600;
+
+}
+
+button {
+
+  margin-top: 15px;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #ffe600;
+
+  color: #000;
+
+  cursor: pointer;
+
+  font-size: 1em;
+
+  font-weight: bold;
+
+}
+
+button:hover {
+
+  background: #ffcc00;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  background: #00000030;
+
+  margin-top: 30px;
+
+}
+
+/* Project section */
+
+.project {
+
+  background: #ffffff20;
+
+  padding: 15px;
+
+  margin: 10px 0;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: background 0.3s;
+
+  overflow: hidden;
+
+}
+
+.project:hover {
+
+  background: #ffffff35;
+
+}
+
+.project h3 {
+
+  margin: 0;
+
+}
+
+/* Animated details */
+
+.project .details {
+
+  max-height: 0;
+
+  overflow: hidden;
+
+  transition: max-height 0.5s ease, padding 0.3s ease;
+
+  margin-top: 0;
+
+  font-size: 0.95em;
+
+  color: #eaeaea;
+
+  padding: 0;
+
+}
+
+.project.active .details {
+
+  max-height: 200px; /* enough space for text */
+
+  padding: 8px 0;
+
+}
